@@ -5,6 +5,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  compiler: {
+    styledComponents: true,
+  },
+  reactStrictMode: true,
 };
 
 module.exports = nextConfig;
