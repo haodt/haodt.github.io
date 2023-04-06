@@ -1,5 +1,5 @@
 import styled, { x } from "@xstyled/styled-components";
-import { Github, FileDown, Send } from "lucide-react";
+import { Github, FileDown, Send, Linkedin } from "lucide-react";
 
 const Container = styled(x.div)`
   height: 100vh;
@@ -33,6 +33,12 @@ export default function Home() {
           <x.div display="flex">
             <Button href="https://github.com/haodt" mr={4}>
               <Github />
+            </Button>
+            <Button
+              href="https://www.linkedin.com/in/the-hao-doan-72405471/"
+              mr={4}
+            >
+              <Linkedin />
             </Button>
             <Button href="mailto: haodt1990@gmail.com" mr={4}>
               <Send />
