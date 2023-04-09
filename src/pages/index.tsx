@@ -14,8 +14,18 @@ const Button = styled(x.a)`
 
 export default function Home() {
   return (
-    <Container container="sm" mx="auto" display="flex" alignItems="center">
-      <x.div display="grid" gridTemplateColumns="2" columnGap="8">
+    <Container
+      container="sm"
+      mx="auto"
+      display="flex"
+      alignItems="center"
+      padding="4"
+    >
+      <x.div
+        display="grid"
+        gridTemplateColumns={{ sm: 1, md: 2 }}
+        columnGap="8"
+      >
         <x.div>
           <x.h1 text="8xl" mb="4" fontWeight="bold">
             hi, I&apos;m <x.span color="primary-500">Hao</x.span>
